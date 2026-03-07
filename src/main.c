@@ -26,6 +26,8 @@
 int main(void)
 {
     printf("GIT_REV is %s\n", GIT_REV);
+    printf("GIT_REV_VAL is %x\n", GIT_REV_VAL);
+    printf("GIT_REV_FULL is %s\n", GIT_REV_FULL);
     printf("GIT_TAG is %s\n", GIT_TAG);
     printf("GIT_BRANCH is %s\n", GIT_BRANCH);
 
